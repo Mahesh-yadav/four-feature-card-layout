@@ -92,3 +92,21 @@ footer{
     margin: 0;
 }
 
+@media (min-width: 1000px){
+    .header{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+    
+    .content{
+        display: flex;
+        align-items: center;
+        padding: 4rem;
+    }
+
+    .card-column{
+        flex: 1 1 0;
+        margin: 0 1rem;
+    }    
+}
