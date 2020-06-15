@@ -1,0 +1,94 @@
+:root{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    margin: 0;
+    padding: 1rem;
+}
+
+.header{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.header-title{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.bolder{
+    font-weight: 600;
+}
+
+.header-desc{
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.content{
+    padding: 1rem;
+}
+
+.card{
+    border-radius: .25rem;
+    box-shadow: 0 5px 10px 0 hsl(229, 6%, 66%);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-one{
+    border-top: solid 2px hsl(180, 62%, 55%);
+}
+
+.card-two{
+    border-top: solid 2px hsl(0, 78%, 62%);
+}
+
+.card-three{
+    border-top: solid 2px hsl(34, 97%, 64%);
+}
+
+.card-four{
+    border-top: solid 2px hsl(212, 86%, 64%);
+}
+
+.card-title{
+    margin: 0;
+}
+
+.card-content{
+    font-size: .8rem;
+    font-weight: 200;
+}
+
+.img-container{
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+    text-align: right;
+}
+
+.img-container img{
+    width: 4rem;
+    height: 4rem;
+}
+
+footer{
+    padding: 1rem;
+}
+
+.attribution{
+    padding:0 1rem;
+    text-align: center;
+    margin: 0;
+}
+
