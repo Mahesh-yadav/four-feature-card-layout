@@ -92,21 +92,54 @@ footer{
     margin: 0;
 }
 
-@media (min-width: 1000px){
+@media (min-width: 600px){
     .header{
-        width: 50%;
+        width: 80%;
         margin: 0 auto;
         margin-top: 1rem;
+    }
+
+    .content{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .card{
+        width: calc(100% - 20vw);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 900px){
+    .header{
+        width: 50%;
     }
     
     .content{
         display: flex;
         align-items: center;
-        padding: 4rem;
+        padding: 0 3rem;
+        width: 100%;
     }
 
     .card-column{
         flex: 1 1 0;
         margin: 0 1rem;
-    }    
+    } 
+    
+    .col-middle .card{
+        margin-bottom: 2rem;
+    }
+
+    .card{
+        margin: 0;
+        width: auto;
+    }
+}
+
+@media (min-width: 1200px){
+    .content{
+        padding: 0 calc(4rem + 5vw);
+    }
 }
